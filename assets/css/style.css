@@ -1,0 +1,148 @@
+html, body, h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 100%;
+	font-weight: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+	background-color: #f1f3f4;
+  color: #34495e;
+  text-align: center;
+
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+	*font-size: small;
+	*font: x-small;
+}
+
+li {
+	list-style: none;
+}
+
+h2 { 
+  font-size: 152% 
+}
+h3, h4 
+{ 
+  font-size: 122%; 
+}
+h1, h2, h3, h4 {
+  color: #34495e; 
+}
+p { 
+  font-size: 100%; 
+  line-height: 18px; 
+  padding-right: 3em; 
+}
+a { 
+  color: #2980b9 
+}
+a:hover {
+  text-decoration: none; 
+}
+strong { 
+  font-weight: bold; 
+}
+li { 
+  line-height: 24px; 
+  border-bottom: 1px solid #ccc; 
+}
+
+#resume {
+	width: 73.076em;
+  *width: 71.25em;
+  
+  margin: auto;
+	text-align: left;
+}
+
+#header {
+  margin: 0.5em 0 1.5em 0; 
+  padding-bottom: 1.5em; 
+  border-bottom: 1px solid #ccc
+}
+
+#header h1 { 
+  font-size: 48px; 
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+}
+
+#header h2 { 
+  letter-spacing: 2px; 
+}
+
+#header:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#inner { 
+  padding: 10px 20px; 
+  margin: 0 auto; 
+  background: #fff; 
+  border: solid #34495e; 
+  border-width: 8px 0 2px 0; 
+}
+
+.main {
+  width: 100%;
+}
+
+.main-body {
+  position: static;
+  float: none;
+	width: auto;
+}
+.section {
+  margin-bottom: 2em; 
+  padding-bottom: 2em; 
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+.section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.contact-info { margin-top: 7px; }
+.first h2 { font-style: italic; }
+
+.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 0.75em 0 3em 0; }
+
+.skills-list ul { margin: 0; }
+.skills-list li { margin: 3px 0; padding: 3px 0; }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.talent { width: 28%; float: left }
+.talent h2 { margin-bottom: 6px; }
+
+.last { border: none; }
+.last { border-bottom: 0 }
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.width-rigth {
+  width: 80.2%;
+}
+
+.width-skills {
+  width: 85%;
+}
