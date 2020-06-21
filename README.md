@@ -1,1 +1,2 @@
-# My personal Resume
+# My personal resume
+https://app.mischicanadas.com/resume/
