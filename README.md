@@ -1,3 +1,5 @@
 # My personal resume
 
-https://app.mischicanadas.com/resume
+## Screenshots
+
+![resume](screenshots/screen_shot.png)
