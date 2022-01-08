@@ -2,4 +2,4 @@
 
 ## Screenshots
 
-![resume](screenshots/screen_shot.png)
+![resume](assets/screenshots/screen_shot.png)
