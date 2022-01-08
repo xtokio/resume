@@ -8,13 +8,13 @@ html, body, h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 10px;
 	background-color: #f1f3f4;
   color: #34495e;
   text-align: center;
 
-  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  font: 13px/1.231 poppins, clean, sans-serif;
 	*font-size: small;
 	*font: x-small;
 }
@@ -36,10 +36,12 @@ h1, h2, h3, h4 {
 p { 
   font-size: 100%; 
   line-height: 18px; 
-  padding-right: 3em; 
+  padding-right: 3em;
+  font-weight: 300;
 }
 a { 
-  color: #2980b9 
+  color: #34495e;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none; 
@@ -116,7 +118,7 @@ li {
 }
 
 .contact-info { margin-top: 7px; }
-.first h2 { font-style: italic; }
+.first h2 { font-style: normal }
 
 .job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
